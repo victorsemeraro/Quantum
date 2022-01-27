@@ -1,6 +1,7 @@
-from pyquil import Program, WavefunctionSimulator
+from pyquil import Program
 from pyquil.quilatom import Parameter, quil_sin, quil_cos
 from pyquil.quilbase import DefGate
+from pyquil.gates import H
 import numpy as np
 
 theta = Parameter('theta')

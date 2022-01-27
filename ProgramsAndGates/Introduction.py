@@ -10,7 +10,7 @@ print(p)
 
 from pyquil import get_qc
 
-qc = get_qc('n1-qvm') 
+qc = get_qc('Aspen-11-qvm') 
 executable = qc.compile(p)
 result = qc.run(executable)
 bitstrings = result.readout_data.get('ro')
