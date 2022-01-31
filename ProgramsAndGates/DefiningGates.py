@@ -1,5 +1,4 @@
 import numpy as np
-
 from pyquil import Program
 from pyquil.quil import DefGate
 
